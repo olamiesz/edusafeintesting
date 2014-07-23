@@ -405,15 +405,12 @@ a:hover {
 .row-fluid .classtext p, li{
   margin-left: 50px;
   margin-right: 50px;
-<<<<<<< HEAD
- /* margin-top: 10px;     */
+
 }
 
-.container-fluid li {      /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.container-fluid li {      
   margin: 0;
-=======
- /* margin-top: 10px;     wstawic to do klas z tekstem */
->>>>>>> FETCH_HEAD
+
 }
 
 .row-fluid .classtext .ORGtext {
