@@ -650,8 +650,8 @@ a:hover {
 }
 
 .container-fluid {
-  padding-right: 290px;
-  padding-left: 310px;
+  /*padding-right: 190px;*/
+  padding-left: 320px;
   *zoom: 1;
   box-shadow:3px 3px 6px 4px black;
 }
@@ -6065,7 +6065,6 @@ a.badge:hover {
   width: 350px;
   height: 200px;
   margin-top: 25px;
-  margin-left: 50px;
 }
 
 .pull-right {
