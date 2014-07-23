@@ -405,11 +405,23 @@ a:hover {
 .row-fluid .classtext p, li{
   margin-left: 50px;
   margin-right: 50px;
-  margin-top: 10px;     
+<<<<<<< HEAD
+ /* margin-top: 10px;     */
 }
 
 .container-fluid li {      /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
   margin: 0;
+=======
+ /* margin-top: 10px;     wstawic to do klas z tekstem */
+>>>>>>> FETCH_HEAD
+}
+
+.row-fluid .classtext .ORGtext {
+  margin-top: 10px;
+}
+
+.row-fluid .classtext .NEWStext {
+  margin-top: 10px;
 }
 
 .row-fluid .classtext b{
@@ -418,6 +430,7 @@ a:hover {
 
 .row-fluid .EDtext {
   margin-right: 640px;
+  margin-top: 10px;
 }
 .row-fluid .EDtext p, li{
  text-indent: 1cm;
@@ -434,6 +447,7 @@ a:hover {
 }
 .row-fluid .RES-OVtext p, li{
  text-indent: 1cm;
+ margin-top: 10px;
 }
 .row-fluid .RES-OVtext h2{
   font-size: 35px;
@@ -691,7 +705,9 @@ a:hover {
 }
 
 .container-fluid {
+
   padding-right: 325px;    /*odpowiedzialne za wciecia z prawej strony w pasku menu, poprawic gdy napirawie odstepy */
+
   padding-left: 320px;
   *zoom: 1;
   box-shadow:3px 3px 6px 4px black;
