@@ -405,16 +405,15 @@ a:hover {
 .row-fluid .classtext p, li{
   margin-left: 50px;
   margin-right: 50px;
-
 }
 
 .container-fluid li {      
   margin: 0;
-
 }
 
 .row-fluid .classtext .ORGtext {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .row-fluid .classtext .ORGtext li{
@@ -429,7 +428,10 @@ a:hover {
   text-align: 10px;
 }
 
-.row-fluid .EDtext {
+.row-fluid .EDtext,
+.row-fluid .RES-OVtext,
+.row-fluid .RES2text1,
+.row-fluid .RES2text2{
   margin-right: 640px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -444,12 +446,13 @@ a:hover {
   margin-top: -525px;
 }
 
-.row-fluid .RES-OVtext {
-    margin-right: 640px;
-}
+/*.row-fluid .RES-OVtext {
+  margin-right: 640px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}*/
 .row-fluid .RES-OVtext p, li{
  text-indent: 1cm;
- margin-top: 10px;
 }
 .row-fluid .RES-OVtext h2{
   font-size: 35px;
@@ -466,6 +469,32 @@ a:hover {
   margin-right: 50px;
   margin-left: 700px;
   margin-top: -1125px;
+}
+.row-fluid .RES2title h3{
+  font-size: 34px;
+  margin-left: 50px;
+  color: Black;
+  line-height: 30px;
+}
+.row-fluid .RES2text1 p, li,
+.row-fluid .RES2text2 p, li{
+ text-indent: 1cm;
+}
+.row-fluid .RES2figure1 {
+  margin-right: 25px;
+  margin-left: 650px;
+  margin-top: -270px;
+}
+.row-fluid .RES2figure2{
+  margin-left: 60px;
+}
+.row-fluid .RES2figure3{
+  margin-left: 60px;
+}
+.row-fluid .RES2figure4{
+  margin-right: 25px;
+  margin-left: 650px;
+  margin-top: -430px;
 }
 
 .row-fluid:before,
