@@ -411,6 +411,15 @@ a:hover {
   text-align: 10px;
 }
 
+.row-fluid .EDtext {
+  margin-right: 640px;
+}
+.row-fluid .EDimg {
+  margin-right: 50px;
+  margin-left: 700px;
+  margin-top: -525px;
+}
+
 .row-fluid:before,
 .row-fluid:after {
   display: table;
