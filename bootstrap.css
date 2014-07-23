@@ -417,8 +417,12 @@ a:hover {
   margin-top: 10px;
 }
 
+.row-fluid .classtext .ORGtext li{
+  text-indent: 0;
+}
 .row-fluid .classtext .NEWStext {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .row-fluid .classtext b{
@@ -428,6 +432,7 @@ a:hover {
 .row-fluid .EDtext {
   margin-right: 640px;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 .row-fluid .EDtext p, li{
  text-indent: 1cm;
