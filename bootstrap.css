@@ -459,6 +459,10 @@ a:hover {
   margin-left: 50px;
   color: Black;
 }
+.row-fluid .logoimage h2{
+  font-size: 35px;
+  color: Black;
+}
 .row-fluid .RES-OVtext h3{
   font-size: 25px;
   margin-left: 50px;
@@ -470,14 +474,20 @@ a:hover {
   margin-left: 700px;
   margin-top: -1125px;
 }
-.row-fluid .RES2title h3{
+.row-fluid .RES2title h3,
+.row-fluid .RES3title h3,
+.row-fluid .RES4title h3,
+.row-fluid .RES5title h3{
   font-size: 34px;
   margin-left: 50px;
   color: Black;
   line-height: 30px;
 }
 .row-fluid .RES2text1 p, li,
-.row-fluid .RES2text2 p, li{
+.row-fluid .RES2text2 p, li,
+.row-fluid .RES3text p, li,
+.row-fluid .RES4text p, li,
+.row-fluid .RES5text p, li {
  text-indent: 1cm;
 }
 .row-fluid .RES2figure1 {
@@ -495,6 +505,9 @@ a:hover {
   margin-right: 25px;
   margin-left: 650px;
   margin-top: -430px;
+}
+.row-fluid .logoimage{
+  text-align: center;
 }
 
 .row-fluid:before,
