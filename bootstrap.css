@@ -405,7 +405,16 @@ a:hover {
 .row-fluid .classtext p, li{
   margin-left: 50px;
   margin-right: 50px;
+ /* margin-top: 10px;     wstawic to do klas z tekstem */
 }
+
+/*.row-fluid .classtext .ORGtext p, li {
+  text-indent: 0;
+}
+
+.row-fluid .classtext .NEWStext p, li {
+  text-indent: 0;
+}*/
 
 .row-fluid .classtext b{
   text-align: 10px;
@@ -414,10 +423,37 @@ a:hover {
 .row-fluid .EDtext {
   margin-right: 640px;
 }
+.row-fluid .EDtext p, li{
+ text-indent: 1cm;
+}
+
 .row-fluid .EDimg {
   margin-right: 50px;
   margin-left: 700px;
   margin-top: -525px;
+}
+
+.row-fluid .RES-OVtext {
+    margin-right: 640px;
+}
+.row-fluid .RES-OVtext p, li{
+ text-indent: 1cm;
+}
+.row-fluid .RES-OVtext h2{
+  font-size: 35px;
+  margin-left: 50px;
+  color: Black;
+}
+.row-fluid .RES-OVtext h3{
+  font-size: 25px;
+  margin-left: 50px;
+  color: Black;
+  line-height: 30px;
+}
+.row-fluid .RES-OVimg {
+  margin-right: 50px;
+  margin-left: 700px;
+  margin-top: -1125px;
 }
 
 .row-fluid:before,
@@ -659,7 +695,7 @@ a:hover {
 }
 
 .container-fluid {
-  /*padding-right: 190px;*/
+  padding-right: 190px;
   padding-left: 320px;
   *zoom: 1;
   box-shadow:3px 3px 6px 4px black;
