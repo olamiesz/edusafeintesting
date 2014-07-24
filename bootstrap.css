@@ -388,13 +388,15 @@ a:hover {
   margin-left: 100px;
 }
 
-.row-fluid {
-  width: 100%;
+#row-fluid {
+  margin: 1% auto;
+  position: relative;
+  width: 70%;
   *zoom: 1;
 }
 
-.row-fluid .classtext{
-
+#row-fluid #classtext{
+  width: 100%;
   border-style: solid;
   border-width: 5px;
   border-radius: 6px;
@@ -402,22 +404,40 @@ a:hover {
   background-color: #C6D9E3;
 }
 
-.row-fluid .classtext p, li{
-  margin-left: 50px;
-  margin-right: 50px;
+#row-fluid #classtext p, li{
+  margin-left: 6%;
+  margin-right: 5%;
+}
+#row-fluid #classtext #EDtext,
+#row-fluid #RES-OVtext,
+#row-fluid #RES2text1,
+#row-fluid #RES2text2{
+  margin-right: 55%;
+  margin-top:1%;
+  margin-bottom: 1%;
+}
+#row-fluid #EDtext p, li{
+ text-indent: 5%;
 }
 
-.container-fluid li {      
+#row-fluid #classtext #EDimg {
+  margin-left: 47%;
+  margin-right: 3%;
+  margin-top: -46%;
+  margin-bottom: 8%;
+}
+
+#container-fluid li {      
   margin: 0;
 }
 
-.row-fluid .classtext .ORGtext {
+#row-fluid #classtext #ORGtext {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.row-fluid .classtext .ORGtext li{
-  text-indent: 0;
+#row-fluid #classtext #ORGtext li{
+  text-indent: 5%;
 }
 .row-fluid .classtext .NEWStext {
   margin-top: 10px;
@@ -428,31 +448,13 @@ a:hover {
   text-align: 10px;
 }
 
-.row-fluid .EDtext,
-.row-fluid .RES-OVtext,
-.row-fluid .RES2text1,
-.row-fluid .RES2text2{
-  margin-right: 640px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.row-fluid .EDtext p, li{
- text-indent: 1cm;
-}
-
-.row-fluid .EDimg {
-  margin-right: 50px;
-  margin-left: 700px;
-  margin-top: -525px;
-}
-
 /*.row-fluid .RES-OVtext {
   margin-right: 640px;
   margin-top: 10px;
   margin-bottom: 10px;
 }*/
 .row-fluid .RES-OVtext p, li{
- text-indent: 1cm;
+ text-indent: 5%;
 }
 .row-fluid .RES-OVtext h2{
   font-size: 35px;
@@ -488,7 +490,7 @@ a:hover {
 .row-fluid .RES3text p, li,
 .row-fluid .RES4text p, li,
 .row-fluid .RES5text p, li {
- text-indent: 1cm;
+ text-indent: 5%;
 }
 .row-fluid .RES2figure1 {
   margin-right: 25px;
@@ -6118,22 +6120,52 @@ a.badge:hover {
   margin-bottom: 0;
 }
 
-.hero-unit {
-  height: 250px;
+#row-fluid #hero-unit{
+  width: 100%;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 6px;
+  border-color: #7EB2CC;
+  /*height: 40%;
+  margin: 1% auto;
+  position: relative;
+
+  *zoom: 1;
   margin-bottom: -30px;
   font-size: 18px;
   font-weight: 200;
-  line-height: 30px;
+  line-height: 30px;*/
   background-color: #7EB2CC; /* odpowiada za kolor paska glownego */
-  -webkit-border-radius: 6px;
+ /* -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
-          border-radius: 6px;
+          border-radius: 6px;*/
 }
-
-.hero-unit h1 {
-  margin-bottom: 0;
-  margin-top: 40px;
-  margin-right: 50px;
+#row-fluid #hero-unit #span8{
+  margin-right: 35%;
+  margin-top:1%;
+  margin-bottom: 1%;
+}
+#row-fluid #hero-unit #span4{
+  margin-left: 60%;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 6px;
+  color: #F2F7FC;
+  background-color: #F2F7FC;
+  margin-right: 4%;
+  margin-bottom: 3%;
+  margin-top: -16%;
+}
+.hero-unit .span4 {
+  width: 350px;
+  height: 200px;
+  margin-top: 25px;
+}
+#row-fluid #hero-unit #span8 h1 {
+  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-right: 10%;
+  margin-left: 4%;
   font-size: 50px;
   text-align: center;
   line-height: 1;
@@ -6164,15 +6196,11 @@ a.badge:hover {
 .hero-unit li {
   line-height: 30px;
 }
-.hero-unit .span8 {
+/*.hero-unit .span8 {
   width: 750px;
 }
-.hero-unit .span4 {
-  width: 350px;
-  height: 200px;
-  margin-top: 25px;
-}
 
+*/
 .pull-right {
   float: right;
 }
