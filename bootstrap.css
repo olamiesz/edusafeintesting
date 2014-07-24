@@ -435,9 +435,12 @@ a:hover {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
+#row-fluid #classtext #ORGtext p, li{
+  margin-left: 3%;
+  margin-right: 5%;
+}
 #row-fluid #classtext #ORGtext li{
-  text-indent: 5%;
+  text-indent: 0;
 }
 .row-fluid .classtext .NEWStext {
   margin-top: 10px;
@@ -6152,9 +6155,13 @@ a.badge:hover {
   border-radius: 6px;
   color: #F2F7FC;
   background-color: #F2F7FC;
-  margin-right: 4%;
   margin-bottom: 3%;
+  margin-right: 4%;
+/*  padding-top: 5%;*/
   margin-top: -16%;
+}
+#row-fluid #hero-unit #span4 a{
+  padding: 5%;
 }
 .hero-unit .span4 {
   width: 350px;
@@ -6172,9 +6179,10 @@ a.badge:hover {
   letter-spacing: -1px;
   color: inherit;
 }
-.hero-unit h2 {
-  margin-left: 150px;
-  margin-right: 150px;
+#row-fluid #hero-unit #span8 h2 {
+  margin-top: 5%;
+  margin-left: 4%;
+  margin-right: 10%;
   font-size: 35px;
   text-align: center;
   line-height: 1;
@@ -6182,16 +6190,18 @@ a.badge:hover {
   color: inherit;
 }
 
-.hero-unit h3 {
+#row-fluid #hero-unit #span8 h3 {
   font-size: 50px;
+  margin-bottom: 10%;
+  margin-bottom: 5%;
   text-align: center;
   line-height: 1;
   letter-spacing: -1px;
   color: inherit;
 }
-.hero-unit hr {
-  margin-left: 90px;
-  width:650px;
+#row-fluid #hero-unit #span8 hr {
+  margin-left: 6%;
+  width:82%;
 }
 .hero-unit li {
   line-height: 30px;
