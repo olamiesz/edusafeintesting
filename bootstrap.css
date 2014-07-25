@@ -451,12 +451,12 @@ a:hover {
 #row-fluid #classtext #ORGtext li{
   text-indent: 0;
 }
-.row-fluid .classtext .NEWStext {
+#row-fluid #classtext #NEWStext {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.row-fluid .classtext b{
+#row-fluid #classtext b{
   text-align: 10px;
 }
 
@@ -465,10 +465,10 @@ a:hover {
   margin-top: 10px;
   margin-bottom: 10px;
 }*/
-.row-fluid .RES-OVtext p, li{
+#row-fluid #RES-OVtext p, li{
  text-indent: 5%;
 }
-.row-fluid .RES-OVtext h2{
+#row-fluid #RES-OVtext h2{
   font-size: 35px;
   margin-left: 50px;
   color: Black;
@@ -477,7 +477,7 @@ a:hover {
   font-size: 35px;
   color: Black;
 }
-.row-fluid .RES-OVtext h3{
+#row-fluid #RES-OVtext h3{
   font-size: 25px;
   margin-left: 50px;
   color: Black;
