@@ -410,11 +410,18 @@ a:hover {
   background-color: #C6D9E3;
 }
 
-#row-fluid #classtext p, li{
+#row-fluid #classtext p,
+#row-fluid #classtext li,
+#row-fluid #classtext h2,
+#row-fluid #classtext h3{
   margin-left: 6%;
   margin-right: 5%;
 }
+#row-fluid #classtext #NEWStext p {
+  margin-left: 3%;
+}
 #row-fluid #classtext #EDtext,
+#row-fluid #classtext #ORGtext,
 #row-fluid #RES-OVtext,
 #row-fluid #RES2text1,
 #row-fluid #RES2text2{
@@ -432,7 +439,17 @@ a:hover {
   margin-top: -46%;
   margin-bottom: 8%;
 }
-
+#row-fluid #RES-OVimg1{
+  margin-right: 3%;
+  margin-left: 47%;
+  margin-top: -91%;
+}
+#row-fluid #RES-OVimg2{
+  margin-right: 3%;
+  margin-left: 47%;
+  margin-top: 0;
+  margin-bottom: 27%;
+}
 #container-fluid li {      
   margin 0;
  /* margin: 1% auto;  
@@ -440,10 +457,7 @@ a:hover {
   width: 70%;*/
 }
 
-#row-fluid #classtext #ORGtext {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
+
 #row-fluid #classtext #ORGtext p, li{
   margin-left: 3%;
   margin-right: 5%;
@@ -452,8 +466,8 @@ a:hover {
   text-indent: 0;
 }
 #row-fluid #classtext #NEWStext {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 #row-fluid #classtext b{
@@ -466,28 +480,23 @@ a:hover {
   margin-bottom: 10px;
 }*/
 #row-fluid #RES-OVtext p, li{
- text-indent: 5%;
+  text-indent: 5%;
 }
 #row-fluid #RES-OVtext h2{
-  font-size: 35px;
-  margin-left: 50px;
-  color: Black;
-}
-.row-fluid .logoimage h2{
   font-size: 35px;
   color: Black;
 }
 #row-fluid #RES-OVtext h3{
   font-size: 25px;
-  margin-left: 50px;
   color: Black;
   line-height: 30px;
 }
-.row-fluid .RES-OVimg {
-  margin-right: 50px;
-  margin-left: 700px;
-  margin-top: -1125px;
+.row-fluid .logoimage h2{
+  font-size: 35px;
+  color: Black;
 }
+
+
 .row-fluid .RES2title h3,
 .row-fluid .RES3title h3,
 .row-fluid .RES4title h3,
