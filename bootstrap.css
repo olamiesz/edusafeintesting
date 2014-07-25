@@ -283,7 +283,18 @@ a:hover {
   min-height: 1px;
   margin-left: 20px;
 }
+/*.container-fluid .nav{
+  float: right;
+  width: 1500px;
+  min-width: 720px;
+}
+.nav li{
 
+  padding-right: -20px;    /* odleglosc miedzy guzikami menu glownego 
+  padding-left: -20px;
+  padding-right: 1px;
+  padding-left: 1px;
+}*/
 .container,
 .navbar-static-top .container,
 .navbar-fixed-top .container,
@@ -392,12 +403,6 @@ a:hover {
   position: relative;
   width: 70%;
   min-width: 780px;
-  *zoom: 1;
-}
-.row-fluid {
-  margin: 1% auto;
-  position: relative;
-  width: 70%;
   *zoom: 1;
 }
 
@@ -768,16 +773,15 @@ a:hover {
 }
 
 .container-fluid {
-
-  padding-right: 325px;    /*odpowiedzialne za wciecia z prawej strony w pasku menu, poprawic gdy napirawie odstepy */
-
-  padding-left: 320px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  width: 70%;
+  min-width: 780px;
   *zoom: 1;
-  box-shadow:3px 3px 6px 4px black;
 }
-.navbar-inner .container-fluid .nav-collapse li{
+.container-fluid li{
   display: inline;
-  padding-right: -5px;    /* odleglosc miedzy guzikami menu glownego */
 }
 
 .container-fluid:before,
@@ -4077,7 +4081,7 @@ input[type="submit"].btn.btn-mini {
   margin-bottom: 0;
 }
 
-.nav-list > li > a,
+.-list > li > a,
 .nav-list .nav-header {
   margin-right: -15px;
   margin-left: -15px;
@@ -4370,14 +4374,13 @@ input[type="submit"].btn.btn-mini {
 
 .tabs-left > .nav-tabs > li > a,
 .tabs-right > .nav-tabs > li > a {
-  min-width: 74px;
+  min-width: 50px;
   margin-right: 0;
   margin-bottom: 3px;
 }
 
 .tabs-left > .nav-tabs {
   float: left;
-  margin-right: 19px;
   border-right: 1px solid #ddd;
 }
 
@@ -4439,30 +4442,17 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar-inner {
-  min-height: 40px;
+  max-height: 50px;
+/*
   padding-right: 20px;
-  padding-left: 20px;
+  padding-left: 20px;             nie wiem po co jest ten fragment*/
   background-color: #c8bad9;
-  background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
-  background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
-  background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
-  background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
-  background-repeat: repeat-x;
-  border: 1px solid #d4d4d4;
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
-  *zoom: 1;
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
-     -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
-          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  box-shadow:3px 3px 6px 4px black;
 }
 
-/*.navbar-inner a{
+.navbar-inner a{
   display: inline;
-}*/
+}
 
 .navbar-inner:before,
 .navbar-inner:after {
@@ -4667,7 +4657,6 @@ input[type="submit"].btn.btn-mini {
   left: 0;
   display: block;
   float: left;
-  margin: 0 10px 0 0;
 }
 
 .navbar .nav.pull-right {
@@ -4713,7 +4702,6 @@ input[type="submit"].btn.btn-mini {
   display: none;
   float: right;
   padding: 7px 10px;
-  margin-right: 5px;
   margin-left: 5px;
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
@@ -4873,6 +4861,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-inverse .nav > li > a {
   color: #7EB2CC; /* odpowiada za kolor zakladek na pasku glownym menu */
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+
 }
 
 .navbar-inverse .brand:hover,
