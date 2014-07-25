@@ -401,7 +401,7 @@ a:hover {
   *zoom: 1;
 }
 
-#row-fluid #classtext{
+#classtext{
   width: 100%;
   border-style: solid;
   border-width: 5px;
@@ -414,30 +414,24 @@ a:hover {
 #row-fluid #classtext li,
 #row-fluid #classtext h2,
 #row-fluid #classtext h3{
-  margin-left: 6%;
-  margin-right: 5%;
+  margin-left: 3%;
+/*  margin-right: 5%;*/
 }
+#row-fluid #classtext img{
+  float: right;
+  padding-left: 3%;
+  padding-bottom: 1%;
+}
+
 #row-fluid #classtext #NEWStext p {
   margin-left: 3%;
 }
-#row-fluid #classtext #EDtext,
 #row-fluid #classtext #ORGtext,
 #row-fluid #RES-OVtext,
 #row-fluid #RES2text1,
 #row-fluid #RES2text2{
-  margin-right: 55%;
   margin-top:1%;
   margin-bottom: 1%;
-}
-#row-fluid #EDtext p, li{
- text-indent: 5%;
-}
-
-#row-fluid #classtext #EDimg {
-  margin-left: 47%;
-  margin-right: 3%;
-  margin-top: -46%;
-  margin-bottom: 8%;
 }
 #row-fluid #RES-OVimg1{
   margin-right: 3%;
@@ -6165,10 +6159,33 @@ a.badge:hover {
      -moz-border-radius: 6px;
           border-radius: 6px;*/
 }
-#row-fluid #hero-unit #span8{
-  margin-right: 35%;
-  margin-top:1%;
-  margin-bottom: 1%;
+#row-fluid #hero-unit img{
+  float: right;
+  width: 450px;/*
+  padding-left: 0%;*/
+  padding-bottom: 3%;
+  padding-top: 1%;
+  margin-right: 5%;
+  margin-top: 3%;
+  margin-bottom:5%;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 6px;
+  color: #F2F7FC;
+  background-color: #F2F7FC;
+}
+#row-fluid #hero-unit h1{
+  float: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-right: 25%;
+  margin-left: 4%;
+  padding-right: 10%;
+  font-size: 50px;
+  text-align: center;
+  line-height: 1;
+  letter-spacing: -1px;
+  color: inherit;
 }
 #row-fluid #hero-unit #span4{
   margin-left: 60%;
