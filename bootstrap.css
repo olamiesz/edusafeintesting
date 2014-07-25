@@ -391,6 +391,7 @@ a:hover {
   margin: 1% auto;
   position: relative;
   width: 70%;
+  min-width: 780px;
   *zoom: 1;
 }
 .row-fluid {
@@ -6142,6 +6143,7 @@ a.badge:hover {
 
 #row-fluid #hero-unit{
   width: 100%;
+  min-width: 780px;
   border-style: solid;
   border-width: 5px;
   border-radius: 6px;
@@ -6161,14 +6163,14 @@ a.badge:hover {
           border-radius: 6px;*/
 }
 #row-fluid #hero-unit img{
-  float: right;
-  width: 450px;/*
-  padding-left: 0%;*/
-  padding-bottom: 3%;
+  width: 750px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1%;
   padding-top: 1%;
-  margin-right: 5%;
-  margin-top: 3%;
-  margin-bottom:5%;
+  margin-top: 2%;/*
+  margin-bottom:5%;*/
   border-style: solid;
   border-width: 5px;
   border-radius: 6px;
@@ -6176,17 +6178,32 @@ a.badge:hover {
   background-color: #F2F7FC;
 }
 #row-fluid #hero-unit h1{
-  float: center;
-  margin-bottom: 5%;
-  margin-top: 5%;
-  margin-right: 25%;
-  margin-left: 4%;
+  margin-bottom: 3%;
+  margin-top: 2%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10%;
   padding-right: 10%;
   font-size: 50px;
   text-align: center;
   line-height: 1;
   letter-spacing: -1px;
   color: inherit;
+}
+#row-fluid #hero-unit h3 {
+  margin-bottom: 3%;
+  margin-top: 2%;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 50px;
+  text-align: center;
+  line-height: 1;
+  letter-spacing: -1px;
+  color: inherit;
+}
+#row-fluid #hero-unit hr {
+  margin-left: 8%;
+  width:48%;
 }
 #row-fluid #hero-unit #span4{
   margin-left: 60%;
@@ -6208,41 +6225,8 @@ a.badge:hover {
   height: 200px;
   margin-top: 25px;
 }
-#row-fluid #hero-unit #span8 h1 {
-  margin-bottom: 5%;
-  margin-top: 5%;
-  margin-right: 10%;
-  margin-left: 4%;
-  font-size: 50px;
-  text-align: center;
-  line-height: 1;
-  letter-spacing: -1px;
-  color: inherit;
-}
-#row-fluid #hero-unit #span8 h2 {
-  margin-top: 5%;
-  margin-left: 4%;
-  margin-right: 10%;
-  font-size: 35px;
-  text-align: center;
-  line-height: 1;
-  letter-spacing: -1px;
-  color: inherit;
-}
 
-#row-fluid #hero-unit #span8 h3 {
-  font-size: 50px;
-  margin-bottom: 10%;
-  margin-bottom: 5%;
-  text-align: center;
-  line-height: 1;
-  letter-spacing: -1px;
-  color: inherit;
-}
-#row-fluid #hero-unit #span8 hr {
-  margin-left: 6%;
-  width:82%;
-}
+
 .hero-unit li {
   line-height: 30px;
 }
