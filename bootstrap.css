@@ -70,7 +70,6 @@ img {
   width: auto;
   height: auto;
   max-width: 100%;
-  margin-top:30px;
   vertical-align: middle;
   border: 0;
   -ms-interpolation-mode: bicubic;
@@ -409,17 +408,19 @@ a:hover {
   border-color: #C6D9E3;
   background-color: #C6D9E3;
 }
-
 #row-fluid #classtext p,
 #row-fluid #classtext li,
 #row-fluid #classtext h2,
 #row-fluid #classtext h3{
   margin-left: 3%;
+  margin-top: 1%;
+  margin-bottom: 1%;
 /*  margin-right: 5%;*/
 }
 #row-fluid #classtext img{
   float: right;
   padding-left: 3%;
+  margin-right: 2%;
   padding-bottom: 1%;
 }
 
