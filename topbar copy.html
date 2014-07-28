@@ -1,11 +1,9 @@
 <html>
 <head>
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="bootstrap.min copy.css">
+    <link rel="stylesheet" href="bootstrap copy.css">
     <link rel="stylesheet" href="bootstrap-responsive.css">
-    <link rel="stylesheet" href="bootstrap-responsive.min.css">
     <link rel="stylesheet" href="edusafe.css">
-    <link rel="stylesheet" href="prettify.css">
     <!--<link rel="stylesheet" href="topbar.css"> ten css jest po to, zeby okienko search zjechalo troche w dol - nie dziala w tym momencie -->
   </head>
  <body>
@@ -13,20 +11,25 @@
 <div class="navbar navbar-inverse navbar-fixed-top">
 	<div class="navbar-inner">
 		<div class="container-fluid">
-			<a class="btn btn-navbar" data-toggle="collapse"
-				data-target=".nav-collapse"> <span class="icon-bar"></span> <span
-				class="icon-bar"></span> <span class="icon-bar"></span>
-			</a> <a class="brand" href="site.php"><b>EDUSAFE</b></a>
 			<div class="nav-collapse">
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-target="#bs-example-navbar-collapse-2" data-toggle="collapse" type="button">
+					<span class="sr-only">Rozwiń nawigację</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a class="brand" href="site.php">EDUSAFE</a>
+				</div>
+				<div id="bs-example-navbar-collapse-2" class="navbar-collapse collapse in" style="">
 				<ul class="nav">
-	<!--				<li><a class="brand" href="site.php">EDUSAFE</a></li>-->
 
-					<li><a href="?page=news" style="width:60px">News</a></li>
+					<li><a href="?page=news">News</a></li>
 
-					<li><a href="?page=organization" style="width:110px">Organization</a></li>
+					<li><a href="?page=organization">Organization</a></li>
 					
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
-						data-toggle="dropdown" style="width:100px">Research <b class="caret"></b></a>						
+						data-toggle="dropdown">Research <b class="caret"></b></a>						
 						<ul class="dropdown-menu">
 							<li><a href="?page=research">Overview</a></li>
 							<li class="divider"></li>
@@ -38,14 +41,14 @@
 					</li>					
 					
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
-						data-toggle="dropdown" style="width:100px">Progress <b class="caret"></b></a>						
+						data-toggle="dropdown">Progress <b class="caret"></b></a>						
 						<ul class="dropdown-menu">
 							<li><a href="progress/WP2.pdf">WP 2 (pdf)</a></li>
 							<li><a href="progress/WP4.pdf">WP 4 (pdf)</a></li>
 						</ul>
 					</li>					
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
-						data-toggle="dropdown" style="width:95px">Training <b class="caret"></b></a>						
+						data-toggle="dropdown">Training <b class="caret"></b></a>						
 						<ul class="dropdown-menu">
 							<li><a href="?page=training">Overview</a></li>
 							<li class="divider"></li>
@@ -53,12 +56,13 @@
 						</ul>
 					</li>					
 					
-					<li><a href="http://cern.ch/edusafe-itn" style="width:125px">Member Area 
+					<li><a href="http://cern.ch/edusafe-itn">Member Area 
 						</a>
 					</li>
 					
-					<li><a href="?page=logo" style="width:60px">Logo</a></li>		
+					<li><a href="?page=logo">Logo</a></li>		
 				</ul>
+				</div>
 
 				<!--<ul class="nav navbar-nav pull-right">
 					<li>
