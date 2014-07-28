@@ -283,18 +283,40 @@ a:hover {
   min-height: 1px;
   margin-left: 20px;
 }
-/*.container-fluid .nav{
-  float: right;
-  width: 1500px;
-  min-width: 720px;
+.container-fluid .nav{
+  margin: 0 auto;
+  position: relative;
+  display: inline;
+  width: 100%;
+  min-width: 780px;
+  max-height: 50px;
+  margin-bottom: 0;
+  *zoom 1;
+}
+.nav ul{
+
+  margin:0;
+  list-style:none;
 }
 .nav li{
-
-  padding-right: -20px;    /* odleglosc miedzy guzikami menu glownego 
+  width: 10%;   /*160px*/
+  margin:0;
+  padding:0 1.2% 0 1.3%;    /*0 5px 0 5px */
+  list-style:none;
+  text-align: center;
+  /*padding-right: -20px;    /* odleglosc miedzy guzikami menu glownego 
   padding-left: -20px;
   padding-right: 1px;
-  padding-left: 1px;
-}*/
+  padding-left: 1px;*/
+}
+.navbar .brand {
+  float: left;
+  padding: 0 0 0 0;
+  font-size: 20px;
+  font-weight: 200;
+  color: #777777;
+  text-shadow: 0 1px 0 #ffffff;
+}
 .container,
 .navbar-static-top .container,
 .navbar-fixed-top .container,
@@ -4474,16 +4496,8 @@ input[type="submit"].btn.btn-mini {
   overflow: visible;
 }
 
-.navbar .brand {
-  display: block;
-  float: left;
-  padding: 10px 20px 10px;
-  margin-left: -20px;
-  font-size: 20px;
-  font-weight: 200;
-  color: #777777;
-  text-shadow: 0 1px 0 #ffffff;
-}
+/*tutaj wstawic klase .navbar .brand */
+
 
 .navbar .brand:hover {
   text-decoration: none;
