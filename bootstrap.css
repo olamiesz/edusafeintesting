@@ -817,8 +817,8 @@ a:hover {
   min-width: 780px;
   *zoom: 1;
 }
-.container-fluid li{
-  display: inline;
+.container-fluid ul li{
+  display: inline;    
 }
 
 .container-fluid:before,
