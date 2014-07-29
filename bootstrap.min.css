@@ -79,7 +79,9 @@
  	-moz-box-sizing:border-box;
  	box-sizing:border-box
  }
- body{margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:20px;color:#333;background-color:#000}
+ body{
+ 	margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:20px;
+ 	color:#333;background-color:#000}
  a{color:#08c;text-decoration:none}
  a:hover{color:#005580;text-decoration:underline}
  .img-rounded{
@@ -457,7 +459,7 @@
  	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#fff2f2f2',GradientType=0);
  	*zoom:1;-webkit-box-shadow:0 1px 4px rgba(0,0,0,0.065);
  	-moz-box-shadow:0 1px 4px rgba(0,0,0,0.065);
- 	box-shadow:3px 3px 6px 4px black;
+ 	box-shadow:0 1px 4px rgba(0,0,0,0.065)
  }
  .navbar-inner:before,
  .navbar-inner:after{

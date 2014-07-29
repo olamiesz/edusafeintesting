@@ -4478,16 +4478,10 @@ input[type="submit"].btn.btn-mini {
   overflow: visible;
 }
 
-.navbar-inner {
+.navbar-inverse .navbar-inne {
   max-height: 100px;
-/*
-  padding-right: 20px;
-  padding-left: 20px;             nie wiem po co jest ten fragment*/
-  background-color: #ffffff;
-  box-shadow:3px 3px 6px 40px #c8bad9;
- /* -moz-box-shadow: inset -5px -5px 5px 5px #FFF;
--webkit-box-shadow: inset -5px -5px 5px 5px #FFF;
-box-shadow: inset -5px -5px 5px 5px #FFF;*/
+  background-color: Black;
+  box-shadow: -1px 7px 8px 4px Black;
 }
 
 .navbar-inner a{
@@ -5608,6 +5602,7 @@ box-shadow: inset -5px -5px 5px 5px #FFF;*/
 }
 .basic {
   background-color: Black;
+  box-shadow: 0px -7px 8px 4px Black;
 /*
   box-shadow:3px 3px -10px 4px Black;*/
 }
@@ -5619,14 +5614,16 @@ box-shadow: inset -5px -5px 5px 5px #FFF;*/
   background-color: Black;
   *zoom: 1;
   padding-bottom: 1%;
-  padding-top: 1%;
+  padding-top: 0.5%;
 }
 .parents p{
-  color: #FFFFFF;
+  color: #7EB2CC;
   margin-left: 3%;
   margin-right: 3%;
 }
-
+.parents a {
+  color: #C6D9E3; /* odpowiada za kolor zakladek na pasku glownym menu */
+}
 .parents .thumbnails {
   width: 100%;
   text-align: center;
@@ -5635,12 +5632,15 @@ box-shadow: inset -5px -5px 5px 5px #FFF;*/
   *zoom: 1;
 }
 .parents ul {
+  width: auto;
   position: relative;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
 }
-
+#cos { width: 100%; overflow: hidden; }
+#cos ul { list-style: none; position: relative; float: left; display: block; left: 50%; }
+#cos li { position: relative; float: left; display: block; right: 50%; }
 
 .thumbnails:before,
 .thumbnails:after {
@@ -6313,3 +6313,5 @@ a.badge:hover {
 .affix {
   position: fixed;
 }
+
+

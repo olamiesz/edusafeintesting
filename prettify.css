@@ -27,4 +27,14 @@ ol.linenums li {
   color: #bebec5;
   line-height: 18px;
   text-shadow: 0 1px 0 #fff;
+}.navbar-inner {
+  max-height: 100px;
+/*
+  padding-right: 20px;
+  padding-left: 20px;             nie wiem po co jest ten fragment*/
+  background-color: Black;
+  box-shadow:3px 3px 6px 40px #ff0000;
+ /* -moz-box-shadow: inset -5px -5px 5px 5px #FFF;
+-webkit-box-shadow: inset -5px -5px 5px 5px #FFF;
+box-shadow: inset -5px -5px 5px 5px #FFF;*/
 }
