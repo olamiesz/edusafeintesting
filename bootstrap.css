@@ -455,6 +455,7 @@ a:hover {
 #row-fluid #classtext h2,
 #row-fluid #classtext h3{
   margin-left: 3%;
+  margin-right: 3%;
   margin-top: 1%;
   margin-bottom: 1%;
 /*  margin-right: 5%;*/
@@ -5602,12 +5603,26 @@ input[type="submit"].btn.btn-mini {
   border-left-color: #ffffff;
   border-right-width: 0;
 }
+.parents {
+  margin: 1% auto;
+  position: relative;
+  width: 70%;
+  min-width: 780px;
+  *zoom: 1;
+}
+.parents p{
+  margin-left: 3%;
+  margin-right: 3%;
+}
 
-.thumbnails {
-  margin-left: -20px;
+.parents .thumbnails {
+  width: 100%;
+  text-align: center;
+  margin-left: 0;
   list-style: none;
   *zoom: 1;
 }
+
 
 .thumbnails:before,
 .thumbnails:after {
@@ -5624,10 +5639,10 @@ input[type="submit"].btn.btn-mini {
   margin-left: 0;
 }
 
-.thumbnails > li {
+.parents .thumbnails > li {
   float: left;
-  margin-bottom: 20px;
-  margin-left: 20px;
+  padding-left: 6px;
+  margin: 0 1.2% 1.4% 2%;
 }
 
 .thumbnail {
