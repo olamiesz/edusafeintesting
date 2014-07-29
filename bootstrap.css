@@ -4480,8 +4480,19 @@ input[type="submit"].btn.btn-mini {
 
 .navbar-inverse .navbar-inne {
   max-height: 100px;
-  background-color: Black;
-  box-shadow: -1px 7px 8px 4px Black;
+background-image: -webkit-gradient(
+  linear,
+  left bottom,
+  left top,
+  color-stop(0.12, #7D7D7D),
+  color-stop(1, #1A191A)
+);
+background-image: -o-linear-gradient(top, #7D7D7D 12%, #1A191A 100%);
+background-image: -moz-linear-gradient(top, #7D7D7D 12%, #1A191A 100%);
+background-image: -webkit-linear-gradient(top, #7D7D7D 12%, #1A191A 100%);
+background-image: -ms-linear-gradient(top, #7D7D7D 12%, #1A191A 100%);
+background-image: linear-gradient(to top, #7D7D7D 12%, #1A191A 100%);
+  box-shadow: -1px 7px 8px 4px #7D7D7D;
 }
 
 .navbar-inner a{
@@ -4703,7 +4714,6 @@ input[type="submit"].btn.btn-mini {
   /*padding: 10px 15px 10px;*/
   color: #777777;
   text-decoration: none;
-  text-shadow: 0 1px 0 #ffffff;
 }
 
 .navbar .nav .dropdown-toggle .caret {
@@ -5601,8 +5611,19 @@ input[type="submit"].btn.btn-mini {
   border-right-width: 0;
 }
 .basic {
-  background-color: Black;
-  box-shadow: 0px -7px 8px 4px Black;
+background-image: -webkit-gradient(
+  linear,
+  left top,
+  left bottom,
+  color-stop(0, #7D7D7D),
+  color-stop(0.61, #1A191A)
+);
+background-image: -o-linear-gradient(bottom, #7D7D7D 0%, #1A191A 61%);
+background-image: -moz-linear-gradient(bottom, #7D7D7D 0%, #1A191A 61%);
+background-image: -webkit-linear-gradient(bottom, #7D7D7D 0%, #1A191A 61%);
+background-image: -ms-linear-gradient(bottom, #7D7D7D 0%, #1A191A 61%);
+background-image: linear-gradient(to bottom, #7D7D7D 0%, #1A191A 61%);
+  box-shadow: 0px -7px 8px 4px #7D7D7D;
 /*
   box-shadow:3px 3px -10px 4px Black;*/
 }
@@ -5611,8 +5632,7 @@ input[type="submit"].btn.btn-mini {
   position: relative;
   width: 70%;
   min-width: 780px;
-  background-color: Black;
-  *zoom: 1;
+    *zoom: 1;
   padding-bottom: 1%;
   padding-top: 0.5%;
 }
@@ -5638,10 +5658,6 @@ input[type="submit"].btn.btn-mini {
   margin-left: auto;
   text-align: center;
 }
-#cos { width: 100%; overflow: hidden; }
-#cos ul { list-style: none; position: relative; float: left; display: block; left: 50%; }
-#cos li { position: relative; float: left; display: block; right: 50%; }
-
 .thumbnails:before,
 .thumbnails:after {
   display: table;
