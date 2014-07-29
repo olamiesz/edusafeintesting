@@ -4483,8 +4483,11 @@ input[type="submit"].btn.btn-mini {
 /*
   padding-right: 20px;
   padding-left: 20px;             nie wiem po co jest ten fragment*/
-  background-color: #c8bad9;
-  box-shadow:3px 3px 6px 4px black;
+  background-color: #ffffff;
+  box-shadow:3px 3px 6px 40px #c8bad9;
+ /* -moz-box-shadow: inset -5px -5px 5px 5px #FFF;
+-webkit-box-shadow: inset -5px -5px 5px 5px #FFF;
+box-shadow: inset -5px -5px 5px 5px #FFF;*/
 }
 
 .navbar-inner a{
@@ -5603,14 +5606,23 @@ input[type="submit"].btn.btn-mini {
   border-left-color: #ffffff;
   border-right-width: 0;
 }
+.basic {
+  background-color: Black;
+/*
+  box-shadow:3px 3px -10px 4px Black;*/
+}
 .parents {
   margin: 1% auto;
   position: relative;
   width: 70%;
   min-width: 780px;
+  background-color: Black;
   *zoom: 1;
+  padding-bottom: 1%;
+  padding-top: 1%;
 }
 .parents p{
+  color: #FFFFFF;
   margin-left: 3%;
   margin-right: 3%;
 }
