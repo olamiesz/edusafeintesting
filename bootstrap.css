@@ -535,73 +535,96 @@ border-right: 3px solid Black;
 
 
 .title { 
-    overflow: hidden;
+    /*overflow: hidden;     chyba nic nie robi*/
+    /* ustawia wstazke na obrazku */
     position: relative;
 }
 .title:before, .title:after {
     content: "";
     position: absolute;
-    color: rgba(0, 0, 0, 1);
+    /*color: rgba(0, 0, 0, 1);*/
     text-align: center;
     transition: all 0.6s ease-in-out 0s;
+    /*wstazka rozwija sie na tyle na ile rozwija sie tekst*/
     width: 100%;
 
 }
+/*chyba do niczego nie potrzebna klasa */ 
 .title:before {
     height: 100%;
 }
 .title:after {
-    background: none repeat scroll 0 0 rgba(126, 178, 204. 0.9);
-    color: rgba(0, 0, 0, 1);
+/*    background: none repeat scroll 0 0 rgba(126, 178, 204. 0.9);    chyba niepotrzebne */
+/*    color: rgba(0, 0, 0, 1);*/
+/* zczytuje tytul z data-title */
     content: attr(data-title);
-    /*odpowiedzialne za odstepy miedzy linijkami w zakladce przedniej*/
-
+    /*wstazka jest zawsze pod tekstem*/
     overflow: hidden;
     /*odpowiedzialne za odstepy od tekstu w zakladce przedniej*/ 
     padding: 1em 0.5em;
-    text-overflow: ellipsis;
-    white-space: pre;
+/*    text-overflow: ellipsis;      chyba nie potrzebne */
+/*odpowiedzialne za sposob zawijania tekstu */
+    white-space: normal;
 }
 .title.ribbon {
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
     overflow: visible;
+    /*bez tego wszystko sie pierdoli */
     display: inline-block;
-    z-index: 0;
+    /*chyba niepotrzebne
+    z-index: 0;*/
 }
 .title.ribbon:before {
+  /*bez tego nie ma dolnej wstazki */
     background: none repeat scroll 0 0 rgb(126, 178, 204);
     /*odpowiedzialne za ustawienie wzgledem dolnej krawedzi img zakladki tylnej */
-    bottom: 50%;
+    bottom: 20px;
     /*odpowiedzialne za wysokosc zakladki tylnej*/
-    height: 15%;
-
-    left: -3%;
+    height: 45px;
+    /*nie wiem co robi, ale chyba jest wazne */
+    left: -5px;
+    /*kat nachylenia tylnej wstazki */
     transform: skewY(45deg);
     transform-origin: 100% 100% 0;
     transition: all 0.1s ease-in-out 0.5s;
+    /*nie ruszaj, bo sie psuje wszystko */
     width: 0;
+    /*tylna wstazka za obrazkiem */
     z-index: -1;
+}
+.fig3a .title.ribbon:before {
+  height: 66px;
+}
+.fig2a .title.ribbon:before {
+  height: 61px;
 }
 .title.ribbon:hover:before {
     /*odpowiedzialne za przesuniecie zakladki tylnej wzgledem krawedzi img*/
-    left: -2.7%;
+    left: -10px;
     transition-delay: 0s;
-    /*odpowiedzialne za dlugosc zakladki tylnej */
-    width: 5%;
+    /*odpowiedzialne za polozenie prawego zakladki tylnej */
+    width: 20px;
 }
 .title.ribbon:after {
     background: none repeat scroll 0 0 rgb(126, 178, 204);
     /*odpowiedzialne za odleglosc od dolnej krawedzi zakladki przedniej */
-    bottom: 58%;
-    /* odpowiedzialne za wysuniecie zakldaki przedniej poza img */
-    left: -2.7%;
-    height: 7%;
-
+    bottom: 40px;
+    /* odpowiedzialne za wysuniecie zakladki przedniej poza img */
+    left: -10px;
+    /*odpowiedzialne za wysokosc wstazki przedniej */
+    height: 19px;
+    /*odpowiedzialne za dlugosc wstazki */
+    width: 100%;
     transform: scaleX(0);
     transform-origin: 0 0 0;
     transition: all 0.5s ease-in-out 0s;
     z-index: 2;
+}
+.fig3a .title.ribbon:after {
+      height: 38px;
+}
+.fig2a .title.ribbon:after {
+    height: 34px;
+    width: 224%;
 }
 .title.ribbon:hover:after {
     transform: scaleX(1);
@@ -618,26 +641,7 @@ border-right: 3px solid Black;
   width: 44%;
   float:right;
 }
-.fig2a .title.ribbon {
-  margin: 0px;
-  padding: 0px;
-}
-.fig2a .title.ribbon:hover:before {
-      /*odpowiedzialne za przesuniecie zakladki tylnej wzgledem krawedzi img*/
-    left: -3.7%;
-    right: 10%;
-    /*odpowiedzialne za dlugosc zakladki tylnej */
-    width: 5%;
-}
-.fig2a .title.ribbon:after {
-    background: none repeat scroll 0 0 rgb(126, 178, 204);
-    /*odpowiedzialne za odleglosc od dolnej krawedzi zakladki przedniej */
-    bottom: 56%;
-    /* odpowiedzialne za wysuniecie zakldaki przedniej poza img */
-    left: -3.7%;
-    height: 5%;
-    width: 220%;
-}
+
 .fig3a{
   margin-right: 3%;
   margin-top: 1%;
@@ -645,7 +649,7 @@ border-right: 3px solid Black;
 
 .fig3b {
   margin-left: 3%;
-    margin-right: 3%;
+    margin-right: 2%;
   margin-top: 1%;
 }
 
