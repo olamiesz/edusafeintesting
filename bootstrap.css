@@ -480,6 +480,12 @@ a:hover {
   vertical-align:middle;
   height: 135px;
 }
+#classtext .row .lineright{
+border-right: 3px solid Black;
+}
+#classtext .row .linetop{
+  border-top: 3px solid Black;
+}
 /*@media (min-width: 992px) {
 .col-md-1, 
 .col-md-2, 
@@ -601,29 +607,29 @@ a:hover {
     transform: scaleX(1);
     transition-delay: 0.1s;
 }
-.fig1{
-  width: 48%;
+.fig2b{
+  width: 50%;
   margin-top: 0.5%;
   margin-left: -1.5%;
   float:right;
   margin-right: 5%;
 }
-.fig2{
-  width: 42%;
+.fig2a{
+  width: 44%;
   float:right;
 }
-.fig2 .title.ribbon {
+.fig2a .title.ribbon {
   margin: 0px;
   padding: 0px;
 }
-.fig2 .title.ribbon:hover:before {
+.fig2a .title.ribbon:hover:before {
       /*odpowiedzialne za przesuniecie zakladki tylnej wzgledem krawedzi img*/
     left: -3.7%;
     right: 10%;
     /*odpowiedzialne za dlugosc zakladki tylnej */
     width: 5%;
 }
-.fig2 .title.ribbon:after {
+.fig2a .title.ribbon:after {
     background: none repeat scroll 0 0 rgb(126, 178, 204);
     /*odpowiedzialne za odleglosc od dolnej krawedzi zakladki przedniej */
     bottom: 56%;
@@ -632,7 +638,20 @@ a:hover {
     height: 5%;
     width: 220%;
 }
+.fig3a{
+  margin-right: 3%;
+  margin-top: 1%;
+}
 
+.fig3b {
+  margin-left: 3%;
+    margin-right: 3%;
+  margin-top: 1%;
+}
+
+.textWP2 p{
+  margin-left: 0px;  
+}
 #classtext{
   width: 100%;
   border-style: solid;
@@ -647,7 +666,7 @@ a:hover {
 #row-fluid #classtext h2,
 #row-fluid #classtext h3{
   margin-left: 3%;
-  margin-right: 3%;
+  margin-right: 4%;
   margin-top: 1%;
   margin-bottom: 1%;
   color: Black;
