@@ -717,7 +717,7 @@ border-right: 3px solid Black;
   margin-bottom: 10px;
 }*/
 
-.row-fluid .logoimage h2{
+#row-fluid .logoimage h2{
   font-size: 35px;
   color: Black;
 }
@@ -749,7 +749,7 @@ border-right: 3px solid Black;
   margin-left: 650px;
   margin-top: -430px;
 }
-.row-fluid .logoimage{
+#row-fluid .logoimage{
   text-align: center;
 }
 
