@@ -718,11 +718,21 @@ border-right: 3px solid Black;
 }*/
 
 #row-fluid .logoimage h2{
-  font-size: 35px;
+  font-size: 25px;
   color: Black;
 }
-
-
+#row-fluid .logoimage {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+#row-fluid #classtext .row a{
+  box-shadow:10px 10px 10px -5px #7EB2CC;
+  border-color: #C6D9E3;
+}
+#row-fluid #classtext .row a:hover{
+  box-shadow:15px 13px 10px -5px #648ea3;
+  border-color: #7EB2CC;
+}
 .row-fluid .RES2title h3,
 .row-fluid .RES3title h3,
 .row-fluid .RES4title h3,
@@ -2353,7 +2363,7 @@ table {
 .table td {
   padding: 8px;
   line-height: 20px;
-  text-align: left;
+  text-align: center;
   vertical-align: top;
   border-top: 1px solid #dddddd;
 }
