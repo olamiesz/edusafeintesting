@@ -266,7 +266,7 @@ a:hover {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  position: relative;
+ /* position: relative;*/
   *zoom: 1;
 }
 
@@ -657,11 +657,8 @@ border-right: 3px solid Black;
   margin-left: 0px;  
 }
 
-.box{
-    margin-top: 5px;
-    margin-left: 5px;
-
-    width: 100.5%;
+.row .box{
+    width: 100%;
     min-width: 930px;
     display: none;
     position: absolute;
@@ -678,8 +675,6 @@ border-right: 3px solid Black;
 }
 .box img{
     background: #ff0000;
-    vertical-align: middle;
-    width: 800px;
     padding: 20px;
 }
 .box:target {
