@@ -656,6 +656,38 @@ border-right: 3px solid Black;
 .textWP2 p{
   margin-left: 0px;  
 }
+
+.box{
+    margin-top: 5px;
+    margin-left: 5px;
+
+    width: 100.5%;
+    min-width: 930px;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+
+    background: rgba(0,0,0,.5);
+}
+.box a{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.box img{
+    background: #ff0000;
+    vertical-align: middle;
+    width: 800px;
+    padding: 20px;
+}
+.box:target {
+    display: table;
+    height: 100%;
+}
+
+
 #classtext{
   width: 100%;
   border-style: solid;
