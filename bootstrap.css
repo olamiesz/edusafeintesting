@@ -725,11 +725,11 @@ border-right: 3px solid Black;
   margin-top: 2%;
   margin-bottom: 2%;
 }
-#row-fluid #classtext .row a{
+#row-fluid #classtext .logoimage .row a{
   box-shadow:10px 10px 10px -5px #7EB2CC;
   border-color: #C6D9E3;
 }
-#row-fluid #classtext .row a:hover{
+#row-fluid #classtext .logoimage .row a:hover{
   box-shadow:15px 13px 10px -5px #648ea3;
   border-color: #7EB2CC;
 }
