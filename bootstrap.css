@@ -5904,6 +5904,9 @@ background-image: linear-gradient(to bottom, #7D7D7D 0%, #1A191A 61%);
 .parents td {
   width: 20%;
 }
+.basic .parents a{
+  box-shadow: none;
+}
 .parents img{
 }
 .thumbnails:after {
